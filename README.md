@@ -7,6 +7,7 @@ I'm aware that using Rails for such a project can be considered overengineering.
 ## About this site
 
 * Powered by [Ruby on Rails 5](http://rubyonrails.org/)
+* Tested with [RSpec](http://rspec.info/)
 * Coded with [Sublime Text](https://www.sublimetext.com/)
 
 ## Deploy
