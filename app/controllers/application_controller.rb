@@ -12,6 +12,13 @@ class ApplicationController < ActionController::Base
                   end
   end
 
+  # Includes an explicit locale in every URL
+  #
+  # @return [Hash<Symbol>] locale included in every URL
+  def default_url_options
+    { locale: I18n.locale }
+  end
+
   private
 
   # When an explicit locale has not been set for a request, it's extracted from the header value
