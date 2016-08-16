@@ -22,6 +22,10 @@ module Portfolio
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
+    # Locales
+    config.i18n.default_locale = :en
+    config.i18n.available_locales = [:en, :es]
+
     # Generators
     config.generators do |g|
       g.assets false
