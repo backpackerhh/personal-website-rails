@@ -11,6 +11,7 @@ I'm aware that using Rails for such a project can be considered overengineering.
 * Tested with [RSpec](http://rspec.info/)
 * Documented with [YARD](http://yardoc.org/)
 * Coded with [Sublime Text](https://www.sublimetext.com/)
+* Developed running [Ubuntu MATE 16.04.1 LTS](https://ubuntu-mate.org/)
 
 ## Deploy
 
