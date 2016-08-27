@@ -1,5 +1,5 @@
 %header
   %nav
     %ul
-      %li= link 'English', root_path(locale: :en)
-      %li= link 'Español', root_path(locale: :es)
+      %li= link_to_unless current_locale?(:en), 'English', root_path(locale: :en)
+      %li= link_to_unless current_locale?(:es), 'Español', root_path(locale: :es)
