@@ -9,3 +9,4 @@
     = render 'layouts/header'
     = yield
     = render 'layouts/footer'
+    = javascript_include_tag 'google_analytics' if Rails.env.production?
