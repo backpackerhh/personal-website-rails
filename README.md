@@ -8,6 +8,7 @@ I'm aware that using Rails for such a project can be considered overengineering.
 
 * Powered by [Ruby on Rails 5](http://rubyonrails.org/)
 * Tested with [RSpec](http://rspec.info/)
+* Documented with [YARD](http://yardoc.org/)
 * Coded with [Sublime Text](https://www.sublimetext.com/)
 
 ## Deploy
