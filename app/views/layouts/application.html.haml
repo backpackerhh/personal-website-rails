@@ -1,8 +1,8 @@
 !!!
 %html
   %head
-    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-    %title David Montesdeoca - #{t(:software_developer)}
+    %meta{ content: 'text/html; charset=UTF-8', 'http-equiv': 'Content-Type' }
+    = display_meta_tags site: 'David Montesdeoca', alternate: { es: root_url(locale: :es), en: root_url(locale: :en) }
     = csrf_meta_tags
     = stylesheet_link_tag 'application', media: 'all'
   %body
