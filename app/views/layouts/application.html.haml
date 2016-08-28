@@ -2,7 +2,7 @@
 %html
   %head
     %meta{ content: 'text/html; charset=UTF-8', 'http-equiv': 'Content-Type' }
-    = display_meta_tags site: 'David Montesdeoca', alternate: { es: root_url(locale: :es), en: root_url(locale: :en) }
+    = display_meta_tags site: 'David Montesdeoca', alternate: { es: root_url(locale: :es), en: root_url(locale: :en) }, icon: [{ href: asset_path('favicon-16x16.png'), sizes: '16x16', type: 'image/png' }, { href: asset_path('favicon-32x32.png'), sizes: '32x32', type: 'image/png' }, { href: asset_path('apple-touch-icon-144x144.png'), rel: 'apple-touch-icon-precomposed', sizes: '144x144', type: 'image/png' }, { href: asset_path('apple-touch-icon-152x152.png'), rel: 'apple-touch-icon-precomposed', sizes: '152x152', type: 'image/png' }]
     = csrf_meta_tags
     = stylesheet_link_tag 'application', media: 'all'
   %body
