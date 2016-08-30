@@ -8,6 +8,7 @@ gem 'rails', '~> 5.0.0'
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
