@@ -7,7 +7,10 @@
     = csrf_meta_tags
     = stylesheet_link_tag 'application', media: 'all'
   %body
-    = render 'layouts/header'
-    = yield
-    = render 'layouts/footer'
+    %header{ role: 'banner' }
+      = render 'layouts/header'
+    %main{ role: 'main' }
+      = yield
+    %footer{ role: 'contentinfo' }
+      = render 'layouts/footer'
     = javascript_include_tag 'google_analytics' if Rails.env.production?

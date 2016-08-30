@@ -1,5 +1,4 @@
-%header
-  %nav
-    %ul
-      %li= link_to_unless current_locale?(:en), 'English', root_path(locale: :en)
-      %li= link_to_unless current_locale?(:es), 'Español', root_path(locale: :es)
+%nav
+  %ul
+    %li{ title: 'English' }= link_to_unless current_locale?(:en), 'EN', root_path(locale: :en)
+    %li{ title: 'Español' }= link_to_unless current_locale?(:es), 'ES', root_path(locale: :es)
