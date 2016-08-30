@@ -33,5 +33,13 @@ module Portfolio
       g.view_specs false
       g.controller_specs false
     end
+
+    # CORS
+    config.middleware.insert_before 0, Rack::Cors do
+      allow do
+        origins '*'
+        resource '*/icons*', headers: :any, methods: :get
+      end
+    end
   end
 end

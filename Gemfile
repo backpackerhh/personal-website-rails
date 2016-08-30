@@ -18,6 +18,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'haml-rails', '~> 0.9'
 # SEO
 gem 'meta-tags'
+# CORS
+gem 'rack-cors', require: 'rack/cors'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
