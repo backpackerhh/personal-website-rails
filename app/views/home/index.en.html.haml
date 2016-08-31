@@ -2,10 +2,12 @@
 - description 'Personal website'
 - keywords 'developer, rails, ruby, software, madrid, rails developer, ruby developer, software developer, rails developer madrid, ruby developer madrid, software developer madrid'
 
-= render 'avatar'
-
-%header
-  %h1 Hi! I'm David Montesdeoca
-  %p I'm a software developer from Las Palmas de Gran Canaria, Spain and currently living in Madrid.
-
-= render 'social'
+.ui.center.aligned.container.grid
+  .row
+    = render 'avatar'
+  .row
+    %header
+      %h1.ui.huge.header Hi! I'm David Montesdeoca
+      %p I'm a software developer from Las Palmas de Gran Canaria, Spain and currently living in Madrid.
+  .row
+    = render 'social'

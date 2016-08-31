@@ -1,4 +1,10 @@
-%nav
-  %ul
-    %li{ title: 'English' }= link_to_unless current_locale?(:en), 'EN', root_path(locale: :en)
-    %li{ title: 'Español' }= link_to_unless current_locale?(:es), 'ES', root_path(locale: :es)
+.ui.center.aligned.two.column.vertically.padded.grid
+  .row
+    .six.wide.mobile.only.column
+    .ten.wide.tablet.only.column
+    .twelve.wide.computer.only.column
+    .ten.wide.mobile.six.wide.tablet.four.wide.computer.column
+      %nav#language-switcher
+        %ul.ui.horizontal.divided.list
+          %li.item= link_to_unless current_locale?(:en), 'English', root_path(locale: :en)
+          %li.item= link_to_unless current_locale?(:es), 'Español', root_path(locale: :es)

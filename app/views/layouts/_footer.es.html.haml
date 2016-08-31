@@ -1,10 +1,18 @@
-%p
-  = semantic_icon(:github, :alternate, :large)
-  Código fuente en
-  = link_to 'GitHub', 'https://github.com/backpackerhh/personal-website-rails'
-%p
-  %small
-    %span#copyleft &copy;
-    = Time.current.year
-    David Montesdeoca. Bajo licencia
-    = link_to 'GNU GPLv3', 'http://choosealicense.com/licenses/gpl-3.0/'
+.ui.divider
+
+.ui.computer.reversed.center.aligned.three.column.grid
+  .middle.aligned.row
+    .sixteen.wide.mobile.sixteen.wide.tablet.four.wide.computer.column
+      .ui.tiny.label
+        %p
+          = semantic_icon(:github, :alternate, :large)
+          Código fuente en
+          = link_to 'GitHub', 'https://github.com/backpackerhh/personal-website-rails'
+    .sixteen.wide.mobile.sixteen.wide.tablet.eight.wide.computer.column
+      %p#license
+        %small
+          %span#copyleft &copy;
+          = Time.current.year
+          David Montesdeoca. Bajo licencia
+          = link_to 'GNU GPLv3', 'http://choosealicense.com/licenses/gpl-3.0/'
+    .four.wide.computer.only.column

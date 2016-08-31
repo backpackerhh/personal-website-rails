@@ -1,8 +1,59 @@
+// ALL DEVICES
+html, body {
+  font-size: 24px;
+}
+
+// https://github.com/Semantic-Org/Semantic-UI/issues/1070
+ul.ui.list {
+  li.item:before {
+    display: none;
+  }
+}
+
+header {
+  #language-switcher .item {
+    font-size: 0.9rem;
+  }
+}
+
+main {
+  .grid {
+    margin-top: 0 !important;
+  }
+
+  .row .row {
+    padding: 0 !important;
+  }
+}
+
 footer {
   #copyleft {
     display: inline-block;
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
+  }
+}
+
+// MOBILE
+@media only screen and (max-width: $tabletBreakpoint - 1) {
+  main {
+    .ui.container.grid > .row:first-child,
+    .ui.container.grid > .row:last-child {
+      padding: 0 !important;
+    }
+
+    .ui.stackable.grid > .row > .column {
+      padding-top: 0 !important;
+    }
+  }
+}
+
+// MOBILE & TABLET
+@media only screen and (max-width: $computerBreakpoint - 1) {
+  footer {
+    #license {
+      margin-top: 1em;
+    }
   }
 }

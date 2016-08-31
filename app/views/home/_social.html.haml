@@ -1,25 +1,27 @@
-%ul
-  %li
-    = link_to 'https://www.linkedin.com/in/backpackerhh' do
-      = semantic_icon(:linkedin, :big)
-      LinkedIn
-  %li
-    = link_to 'https://twitter.com/backpackerhh' do
-      = semantic_icon(:twitter, :big)
-      Twitter
-  %li
-    = link_to 'https://github.com/backpackerhh' do
-      = semantic_icon(:github, :big)
-      GitHub
-  %li
-    = link_to 'http://stackoverflow.com/users/1477964/backpackerhh' do
-      = semantic_icon(:stack, :overflow, :big)
-      Stack Overflow
-  %li
-    = link_to 'https://www.codewars.com/users/backpackerhh' do
-      = semantic_icon(:code, :big)
-      Codewars
-  %li
-    = mail_to 'info@davidmontesdeoca.net' do
-      = semantic_icon(:mail, :outline, :big)
-      Email
+.ui.five.column.stackable.grid
+  .row
+    .column
+      = link_to 'https://www.linkedin.com/in/backpackerhh' do
+        = semantic_icon(:linkedin, :big)
+        .content
+          LinkedIn
+    .column
+      = link_to 'https://twitter.com/backpackerhh' do
+        = semantic_icon(:twitter, :big)
+        .content
+          Twitter
+    .column
+      = link_to 'https://github.com/backpackerhh' do
+        = semantic_icon(:github, :big)
+        .content
+          GitHub
+    .column
+      = link_to 'http://stackoverflow.com/users/1477964/backpackerhh' do
+        = semantic_icon(:stack, :overflow, :big)
+        .content
+          Stack Overflow
+    .column
+      = mail_to 'info@davidmontesdeoca.net' do
+        = semantic_icon(:mail, :outline, :big)
+        .content
+          Email

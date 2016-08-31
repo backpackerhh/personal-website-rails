@@ -16,7 +16,7 @@ I'm aware that using Rails for such a project can be considered overengineering.
 
 ## Deploy
 
-After every commit to the *master* branch in Github, the app is automatically deployed to [Heroku](https://www.heroku.com/), using a free web dyno.
+After every commit to the *master* branch in GitHub, the app is automatically deployed to [Heroku](https://www.heroku.com/), using a free web dyno.
 
 ## License
 
