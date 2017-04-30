@@ -1,6 +1,6 @@
 # David Montesdeoca's website
 
-Looking at this project, I wanna you focus on my way of working and thinking, rather than on its (non-existing) complexity. I'll try to show how I organize my code and will document whatever decisions I make, either with commit messages and/or with inline comments.
+Looking at this project, I want you to focus on my way of working and thinking, rather than on its (non-existing) complexity. I'll try to show you how I organize my code and will document whatever decisions I make, either with commit messages and/or with inline comments.
 
 I'm aware that using Rails for such a project can be considered overengineering. Anyway, I'd like to build the same project using another Ruby framework such as [Hanami](http://hanamirb.org/), or another programming languages, such as [Elixir](http://elixir-lang.org/), [Go](https://golang.org/), [Python](https://www.python.org/) or [Crystal](https://crystal-lang.org/). *Just for fun*.
 
