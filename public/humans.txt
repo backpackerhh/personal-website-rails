@@ -6,7 +6,7 @@
   Location: Madrid, Spain
 
 /*SITE*/
-  Last update: 2017/04/29
+  Last update: 2017/08/06
   Language: English / Spanish
   Doctype: HTML5
   IDE: Sublime Text
