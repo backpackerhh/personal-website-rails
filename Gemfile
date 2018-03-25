@@ -15,7 +15,8 @@ gem 'semantic-ui-sass', git: 'https://github.com/doabit/semantic-ui-sass'
 gem 'uglifier', '>= 1.3.0'
 
 # Template engine
-gem 'haml-rails', '~> 0.9'
+gem 'haml', '~> 5.0'
+gem 'haml-rails'
 
 # SEO
 gem 'meta-tags'
