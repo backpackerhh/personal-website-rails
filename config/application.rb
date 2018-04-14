@@ -38,7 +38,7 @@ module Portfolio
     config.middleware.insert_before 0, Rack::Cors do
       allow do
         origins '*'
-        resource '*/icons*', headers: :any, methods: :get
+        resource '*icons*', headers: :any, methods: :get
       end
     end
   end
